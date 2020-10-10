@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30524.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqBasic", "LinqBasic\LinqBasic.csproj", "{CE59C76C-8948-4CBE-90EF-3DA804E1D35C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equality", "Equality\Equality.csproj", "{1289ED23-F7E8-444D-BCD8-B6F8C04DDCA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Equality", "Equality\Equality.csproj", "{1289ED23-F7E8-444D-BCD8-B6F8C04DDCA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeferredExecution", "DeferredExecution\DeferredExecution.csproj", "{E27EDD5B-81E7-4C2A-93C7-FBE351DCAC6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1289ED23-F7E8-444D-BCD8-B6F8C04DDCA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1289ED23-F7E8-444D-BCD8-B6F8C04DDCA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1289ED23-F7E8-444D-BCD8-B6F8C04DDCA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E27EDD5B-81E7-4C2A-93C7-FBE351DCAC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27EDD5B-81E7-4C2A-93C7-FBE351DCAC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27EDD5B-81E7-4C2A-93C7-FBE351DCAC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27EDD5B-81E7-4C2A-93C7-FBE351DCAC6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
