@@ -38,7 +38,7 @@ namespace DeferredExecution
             Console.WriteLine("**********************************");
 
 
-            var query2 = movies.FilterWithoutYield(m => m.Year > 2005);
+            var query2 = movies.FilterWithoutYield(m => m.Year > 2005 && m.Year > 2006);
 
             foreach (var movie in query2)
             {
